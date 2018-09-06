@@ -13,6 +13,28 @@
 //   midpoint(l); // returns { data: 'b' }
 
 function midpoint(list) {
+  // if (!list.head) {
+  //   return null;
+  // }
+  //
+  // let slow = 0;
+  // let fast = 0;
+  // let node = list.head;
+  // let prev = {};
+  //
+  // while (node) {
+  //   if (!node.next) {
+  //     return list.getAt(slow);
+  //   }
+  //
+  //   slow++;
+  //   fast += 2;
+  //   node = list.getAt(fast);
+  // }
+  //
+  // return list.getAt(slow - 1);
+
+  
   let slow = list.head;
   let fast = list.head;
 
